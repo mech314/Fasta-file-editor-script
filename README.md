@@ -74,5 +74,3 @@ LNSLQGHYNTYTNRPVPDALKTRVEKELSKAEKAALRGT
 Written by Anton Avramov
 If you have any questions or suggestions please let me know
 antony.avramov@me.com
-
-
