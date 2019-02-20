@@ -16,7 +16,7 @@ On mac: python3 ./SimpleFastaEdit.py -2 -aa file.fasta
 On windows: py -3.7 SimpleFastaEdit.py -2 -aa file.fasta
 
 Script has 5 different output options:
--1 ---------- Species name, number and sequence/n
+-1 ---------- Species name, number and sequence /n
 -2 ---------- Species name, number and gene name (You will be asked to enter it) and sequence
 -3 ---------- Species name, number, gene name, gene ID and sequence
 -4 ---------- Species name, number, gene name, gene ID, predicted gene name and sequence
