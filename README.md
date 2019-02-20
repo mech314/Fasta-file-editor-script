@@ -16,6 +16,7 @@ On mac: python3 ./SimpleFastaEdit.py -2 -aa file.fasta
 On windows: py -3.7 SimpleFastaEdit.py -2 -aa file.fasta
 
 Script has 5 different output options:
+
 -1 ---------- Species name, number and sequence
 
 -2 ---------- Species name, number and gene name (You will be asked to enter it) and sequence
@@ -41,6 +42,7 @@ The output will differ based on option chosen
 Example:
 For Nucleic acid sequence:
 Not edited file:
+
 >639019919 possible photosystem II Psb27 protein [Synechococcus sp. WH 7805, unfinished sequence: NZ_AAOK01000001] (-)strand
 ATGCACGCCGCGCTGACCCGTCTAGGCCGACAGCTGACAAGCCTCACCCT
 GTCGCTCTGCCTAGGACTCACTCTTCTGCTCACCGCCTGTGGTGACAGCA
@@ -53,6 +55,7 @@ AGTGCCGGATGCTCTCAAAACTCGCGTTGAGAAAGAGCTCAGCAAGGCGG
 AAAAGGCGGCTCTTCGCGGAACCTGA
 
 Edited file(python3 ./SimpleFastaEdit.py -2 -na Psb27.fasta):
+
 >Synechococcus sp. WH 7805, Psb27 
 ATGCACGCCGCGCTGACCCGTCTAGGCCGACAGCTGACAAGCCTCACCCTG
 TCGCTCTGCCTAGGACTCACTCTTCTGCTCACCGCCTGTGGTGACAGCACA
@@ -65,13 +68,16 @@ GATGCTCTCAAAACTCGCGTTGAGAAAGAGCTCAGCAAGGCGGAAAAGGCG
 GCTCTTCGCGGAACCTGA
 
 For Amino acid sequence:
+
 Not edited file:
+
 >639019919 WH7805_13993 psb27 possible photosystem II Psb27 protein [Synechococcus sp. WH 7805, unfinished sequence: NZ_AAOK01000001]
 MHAALTRLGRQLTSLTLSLCLGLTLLLTACGDSTTSLLSGDYVEDTVAVV
 HMLQNTLALPSDSEGLQDSEHEAHDLINDYMSRYRPRPQVNGLSSFTTMQ
 TALNSLQGHYNTYTNRPVPDALKTRVEKELSKAEKAALRGT
 
 Edited file(python3 ./SimpleFastaEdit.py -2 -aa AA_Psb27.fasta):
+
 >Synechococcus sp. WH 7805 Psb27 
 MHAALTRLGRQLTSLTLSLCLGLTLLLTACGDSTTSLLSGDYVEDTVAVVH
 MLQNTLALPSDSEGLQDSEHEAHDLINDYMSRYRPRPQVNGLSSFTTMQTA
