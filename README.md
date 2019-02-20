@@ -16,14 +16,21 @@ On mac: python3 ./SimpleFastaEdit.py -2 -aa file.fasta
 On windows: py -3.7 SimpleFastaEdit.py -2 -aa file.fasta
 
 Script has 5 different output options:
--1 ---------- Species name, number and sequence /n
+-1 ---------- Species name, number and sequence
+
 -2 ---------- Species name, number and gene name (You will be asked to enter it) and sequence
+
 -3 ---------- Species name, number, gene name, gene ID and sequence
+
 -4 ---------- Species name, number, gene name, gene ID, predicted gene name and sequence
+
 -5 ---------- Species name, number, gene name, gene ID, predicted gene name, coding strand and sequence
 
+
 -aa --------- Specify if your fasta file contain Amino acids sequences
+
 -na --------- Specify if your fasta file contain Nucleic acids sequences
+
 
 Script will provide an output in command line\terminal AND create the file containing the same output.
 File name for the newly created file will be: edit_yourfilename.
