@@ -5,6 +5,8 @@ import re
 import textwrap
 
 sp_list = []
+
+"""I wish I have added some comments here when I wrote this """
 def amino_list_creator(filename):
     with open(filename, 'r') as in_file:
         text = in_file.read().replace('\n', '').replace('>', '\n>').replace(']', '] ')
